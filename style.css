@@ -16,3 +16,37 @@ header{
     grid-area: header;
     background: black;
 }
+aside{
+    grid-area: aside;
+    background: gray;
+}
+footer{
+    grid-area: footer;
+    background: darkblue;
+}
+main{
+    grid-area: main;
+    background: beige;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "image name"
+    "icon icon";
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.image{
+    grid-area: image;
+    width: 10cm; height: 15cm;
+}
+.name{
+    grid-area: name;
+}
+.icon{
+    grid-area: icon;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: space-evenly;
+    justify-items: center;
+}
