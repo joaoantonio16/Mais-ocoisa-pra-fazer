@@ -38,10 +38,10 @@ main{
 }
 .image{
     grid-area: image;
-    width: 10cm; height: 15cm;
 }
 .name{
     grid-area: name;
+    font-size: 30px;
 }
 .icon{
     grid-area: icon;
