@@ -17,12 +17,16 @@ header{
     background: black;
 }
 aside{
+    text-align: justify;
+    padding: 10px;
     grid-area: aside;
-    background: gray;
+    background: rgb(255, 168, 168);
 }
 footer{
+    text-align: justify;
+    padding: 10px;
     grid-area: footer;
-    background: darkblue;
+    background: rgb(124, 124, 255);
 }
 main{
     grid-area: main;
